@@ -27,8 +27,8 @@ jobs:
         id: begin-trail
         uses: kosli-dev/jira-multi-repo-release/.github/actions/kosli-begin-trail-commit-or-release@main
         with:
-          kosli-release-flow: "jira-multi-repo-back-release"
-          kosli-release-template: "kosli-flow-templates/release-template.yml"
+          kosli-release-flow: "jira-multi-repo-back-tagged"
+          kosli-release-template: "kosli-flow-templates/tagged-template.yml"
           kosli-commit-flow: "jira-multi-repo-back-app"
           kosli-commit-template: "kosli-flow-templates/app-template.yml"
 
